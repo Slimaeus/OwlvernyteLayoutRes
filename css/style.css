@@ -161,7 +161,7 @@ a {
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.6s;
+    transition: transform 0.4s;
 }
 
 .col-4 img {
@@ -178,11 +178,21 @@ h4 {
 }
 
 h5 {
+    color: #333;
     font-size: normal;
 }
 
 .rating .fa {
     color: #ff523b;
+}
+
+#middleAbout {
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+#middleAbout:hover {
+    box-shadow: 0 1px 4px #333333;
 }
 
 /*quang cao san pham moi*/
@@ -225,6 +235,7 @@ small {
 
 .testimonial .col-3:hover {
     transform: translateY(-10px);
+
 }
 
 .testimonial .col-3 h3 {
