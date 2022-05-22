@@ -31,7 +31,6 @@ body {
 
 .logo img:hover {
     transition-duration: 0.4s;
-    /* width: 100%; */
     box-shadow: 0 1px 4px #ffffff;
 }
 
@@ -112,17 +111,13 @@ a {
     text-shadow: 0 1px 4px #ffffff;
 }
 
-/*categories*/
+/*about*/
 .small-container {
     min-width: 1080px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 100px;
-}
-
-.categories {
-    margin: 70px 0;
 }
 
 .col-3 {
@@ -135,7 +130,7 @@ a {
     width: 100%;
 }
 
-/*end -categories*/
+/*end -about*/
 
 .title {
     text-align: center;
@@ -203,8 +198,8 @@ h5 {
     transform: scale(1.1);
 }
 
-/*quang cao san pham moi*/
-.offer {
+/*new project*/
+.new-project {
     background: radial-gradient(circle,
             black 0%,
             #333333 100%);
@@ -212,7 +207,7 @@ h5 {
     padding: 30px 0;
 }
 
-.col-2 .offer-img {
+.col-2 .new-project-img {
     display: table-cell;
     margin: 10px auto 20px;
     width: 400px;
@@ -230,15 +225,15 @@ small {
     color: #fff;
 }
 
-/*end - quang cao san pham moi*/
+/*end - new project*/
 
-/* nhan xet cua khach hang */
-.testimonial {
+/* about us */
+.about-us {
     /* padding-top: 100px; */
     padding-bottom: 100px;
 }
 
-.testimonial .col-3 {
+.about-us .col-3 {
     text-align: center;
     padding: 40px 20px;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
@@ -246,18 +241,18 @@ small {
     transition: transform 0.5s;
 }
 
-.testimonial .col-3 img {
+.about-us .col-3 img {
     width: 50px;
     margin-top: 20px;
     border-radius: 50%;
 }
 
-.testimonial .col-3:hover {
+.about-us .col-3:hover {
     transform: translateY(-10px);
 
 }
 
-.testimonial .col-3 h3 {
+.about-us .col-3 h3 {
     font-weight: 600;
     color: #555;
     font-size: 16px;
@@ -274,27 +269,8 @@ small {
     color: #777;
 }
 
-/* end - nhan xet cua khach hang */
-/* thuong hieu */
-.brands {
-    margin: 100px auto;
-}
+/* end - about us */
 
-.col-5 {
-    width: 160px;
-}
-
-.col-5 img {
-    width: 100%;
-    cursor: pointer;
-    filter: grayscale(100%);
-}
-
-.col-5 img:hover {
-    filter: grayscale(0);
-}
-
-/* end - thuong hieu */
 /* footer */
 .footer {
     background: #000;
